@@ -1,0 +1,12 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/setting"
+        android:title="设置属性"
+        android:icon="@drawable/ic_launcher"
+        />
+    <item
+        android:id="@+id/readRecord"
+		android:title="荣誉"        
+        />
+</menu>

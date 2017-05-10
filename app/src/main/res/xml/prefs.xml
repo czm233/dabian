@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="基本设置">
+        <CheckBoxPreference
+            android:key="music"
+            android:summaryOn="播放"
+            android:summaryOff="关闭"
+            android:defaultValue="true"
+            android:title="背景音乐设置"
+            />
+        <CheckBoxPreference
+            android:key="sound"
+            android:summaryOn="音效开"
+            android:summaryOff="音效关"
+            android:defaultValue="true"
+            android:title="游戏音乐设置"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
